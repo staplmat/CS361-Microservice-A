@@ -23,8 +23,11 @@ data = {
   purchase_price: 5,
   current_price: 6
 }
+
 http = Net::HTTP.new(uri.host, uri.port)
+
 request = Net::HTTP::Post.new(uri.path, { 'Content-Type' => 'application/json' })
+
 request.body = data.to_json     
 
 # Output
