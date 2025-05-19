@@ -10,6 +10,10 @@ the stock quantity, current price, and purchase price. It then returns in the HT
 
 ruby test_client.rb
 
+# UML Diagram
+![UML](https://github.com/user-attachments/assets/99c79db5-d8f0-4924-8840-7180e0a0d51a)
+
+
 # Communication Contract
 
 # Input
