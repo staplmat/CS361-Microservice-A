@@ -11,6 +11,6 @@ class PerformanceController < ApplicationController      # This is declaring tha
     gain_loss = (current_price - purchase_price) * quantity
     rating = gain_loss
 
-    render json: { result: rating.round(2)}                     # render sends a response back to the client, rounded to two decimal places
+    render json: { result: rating.round()}                     # render sends a response back to the client, rounded to two decimal places
   end
 end
