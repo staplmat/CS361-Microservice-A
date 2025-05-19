@@ -35,6 +35,7 @@ request.body = data.to_json
 The microservice will send an HTTP Response with a plain text integer of the stock rating, formatted as a JSON. Here is an example of what a response call will look like: 
 
 response = http.request(request)
+
 puts "Response code: #{response.code}"
 
 puts "Response body: #{response.body}"
