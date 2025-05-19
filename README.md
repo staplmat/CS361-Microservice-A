@@ -12,8 +12,9 @@ ruby test_client.rb
 
 # UML Diagram
 
-![UML3](https://github.com/user-attachments/assets/89c00462-8081-4e30-89fa-7a4f842888ed)
 
+
+![UML2](https://github.com/user-attachments/assets/070fea90-cad5-4b39-ab85-99fd4f0f122b)
 
 
 # Communication Contract
