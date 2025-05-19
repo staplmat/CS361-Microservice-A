@@ -11,7 +11,8 @@ the stock quantity, current price, and purchase price. It then returns in the HT
 ruby test_client.rb
 
 # UML Diagram
-![UML](https://github.com/user-attachments/assets/99c79db5-d8f0-4924-8840-7180e0a0d51a)
+
+![UML2](https://github.com/user-attachments/assets/10b7c370-05bc-4824-9fe7-79340a5e9629)
 
 
 # Communication Contract
