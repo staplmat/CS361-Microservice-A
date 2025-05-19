@@ -36,10 +36,13 @@ The microservice will send an HTTP Response with a plain text integer of the sto
 
 response = http.request(request)
 puts "Response code: #{response.code}"
+
 puts "Response body: #{response.body}"
 
-Then the output will be: 
+Then the output will be:
+
 Response code: 200
+
 Response body: {"result":125}
 
 # UML Diagram
