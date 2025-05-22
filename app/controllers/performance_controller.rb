@@ -9,7 +9,7 @@ class PerformanceController < ApplicationController      # This is declaring tha
     current_price = params[:current_price].to_f
 
     gain_loss = (current_price - purchase_price) * quantity
-    rating = gain_loss
+    rating = gain_loss.round(2)
 
     render json: { result: format("%.2f", rating)}                     # render sends a response back to the client, rounded to two decimal places
   end
